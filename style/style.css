@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", sans-serif !important; 
 }
 .button-styled {
   cursor: pointer;
@@ -331,7 +331,7 @@ body {
 
 :root {
   --backgroundColor: rgba(246, 241, 209);
-  --colorShadeA: rgb(106, 163, 137);
+  --colorShadeA: rgb(6, 17, 13);
   --colorShadeB: rgb(121, 186, 156);
   --colorShadeC: rgb(150, 232, 195);
   --colorShadeD: rgb(187, 232, 211);
@@ -349,7 +349,7 @@ button {
   vertical-align: middle;
   text-decoration: none;
   font-size: 1.5rem;
-    color:var(--colorShadeA);
+    color:var(--colorShadeA) !important;
   font-weight: 700;
   text-transform: uppercase;
   font-family: inherit;
